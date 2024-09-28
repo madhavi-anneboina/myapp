@@ -7,7 +7,10 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-       <Greet />
+       <Greet  name="laddu">
+        <p>Helloo how are you,what are you doing</p>
+       </Greet>
+
        <Welcome />
        <Hello />
     </div>
