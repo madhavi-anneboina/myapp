@@ -11,7 +11,7 @@ function App() {
         <p>Helloo how are you,what are you doing</p>
        </Greet>
 
-       <Welcome />
+       <Welcome  name= "biddu"/>
        <Hello />
     </div>
   );

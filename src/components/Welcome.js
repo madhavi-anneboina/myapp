@@ -4,7 +4,7 @@ import React, { Component } from 'react'
   render() {
     return (
       <div>
-         <h2>Welcome to class components</h2>
+         <h2>Welcome to class components {this.props.name}</h2>
       </div>
     )
   }
