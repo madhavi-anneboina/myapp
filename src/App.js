@@ -2,6 +2,8 @@ import React from 'react'
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
+
 
 
 function App() {
@@ -11,8 +13,9 @@ function App() {
         <p>Helloo how are you,what are you doing</p>
        </Greet>
 
-       <Welcome />
+       <Welcome  name= "biddu"/>
        <Hello />
+       <Message />
     </div>
   );
 }
