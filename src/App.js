@@ -14,7 +14,7 @@ function App() {
         <p>Helloo how are you,what are you doing</p>
        </Greet>
 
-       <Welcome  name= "biddu"/>
+       <Welcome  name= "biddu" heroName="latha"/>
        <Hello />
        <Message />
        <Counter />
