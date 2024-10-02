@@ -4,13 +4,16 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import EventBind from './components/EventBind';
+
 
 
 
 function App() {
   return (
     <div className="App">
-       <Greet  name="laddu">
+       {/* <Greet  name="laddu">
         <p>Helloo how are you,what are you doing</p>
        </Greet>
 
@@ -18,6 +21,8 @@ function App() {
        <Hello />
        <Message />
        <Counter />
+       <FunctionClick /> */}
+       <EventBind />
     </div>
   );
 }
