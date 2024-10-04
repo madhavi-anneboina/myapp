@@ -4,7 +4,7 @@ const ChildComponent = ({handleMethod}) => {
   return (
     
     <div>
-        <button onClick = {handleMethod}>Child Component </button>
+        <button onClick = {()=>handleMethod("Helloooo")}>Child Component </button>
     </div>
   )
 }

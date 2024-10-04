@@ -7,6 +7,8 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 
 
@@ -23,8 +25,10 @@ function App() {
        <Message />
        <Counter />
        <FunctionClick /> */}
-       <EventBind />
-       <ParentComponent />
+       {/* <EventBind />
+       <ParentComponent /> */}
+       {/* <UserGreeting /> */}
+       <NameList />
     </div>
   );
 }
