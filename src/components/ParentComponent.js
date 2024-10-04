@@ -8,8 +8,8 @@ class ParentComponent extends Component {
       }
     }
 
-    handleMethod = () =>{
-        alert(`Hello ${this.state.message}`)
+    handleMethod = (method) =>{
+        alert(`Hello ${this.state.message} ${method}`)
     }
     
   render() {
