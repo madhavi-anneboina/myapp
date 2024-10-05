@@ -15,10 +15,6 @@ import StyleSheet from './components/StyleSheet';
 
 
 
-
-
-
-
 function App() {
   return (
     <div className="App">
@@ -35,7 +31,7 @@ function App() {
        <ParentComponent /> */}
        {/* <UserGreeting /> */}
        {/* <NameList /> */}
-       <StyleSheet />
+       <StyleSheet  primary = {false}/>
     </div>
   );
 }
