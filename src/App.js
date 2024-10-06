@@ -11,6 +11,8 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet';
 import Inline from './components/Inline';
+import './appStyles.css';
+import styles from './appStyles.module.css'
 
 
 
@@ -19,6 +21,8 @@ import Inline from './components/Inline';
 function App() {
   return (
     <div className="App">
+      <h1 className='error'> Heloo Madhavi Error </h1>
+      <h1 className={styles.sucess}> Heloo Madhavi Success </h1>
        {/* <Greet  name="laddu">
         <p>Helloo how are you,what are you doing</p>
        </Greet>
@@ -33,7 +37,7 @@ function App() {
        {/* <UserGreeting /> */}
        {/* <NameList /> */}
        {/* <StyleSheet  primary = {false}/> */}
-       <Inline />
+       {/* <Inline /> */}
     </div>
   );
 }
