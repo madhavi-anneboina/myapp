@@ -4,12 +4,10 @@ const Inline = () => {
     const heading = {
         fontSize:'72px',
         color :'red'
-
-
-    }
+     }
   return (
     <div>
-        <h1 style={heading}>Inline Styling</h1>
+        <h1>Inline Styling</h1>
     </div>
   )
 }
