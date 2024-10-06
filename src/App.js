@@ -14,6 +14,10 @@ import Inline from './components/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css'
 import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
+import LifecycleB from './components/LifecycleB';
+
+
 
 
 
@@ -39,7 +43,9 @@ function App() {
        {/* <UserGreeting /> */}
        {/* <NameList /> */}
        {/* <StyleSheet  primary = {false}/> */}
-       <Form />
+      {/* <Form /> */}
+       <LifecycleA />
+     
 
     </div>
   );
