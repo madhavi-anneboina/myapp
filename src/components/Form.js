@@ -23,11 +23,16 @@ import React, { Component } from 'react'
   }
   chageSelector = (event) =>{
     this.setState({
-        topic:this.state.value
+        topic :event.target.value
     })
+  }
+  submitHandler = (event) =>{
+    event.preventDefault()
+    alert(`${this.state.username}, ${this.state.comments},${this.state.topic}`)
   }
   render() {
     return (
+        <form onSubmit={this.submitHandler}>
       <div>
         <div>
          <lable>UserName</lable>
@@ -45,7 +50,9 @@ import React, { Component } from 'react'
                 <option value='vue'>Vue</option>
             </select>
          </div>
+         <button type="submit" >Submit</button>
       </div>
+      </form>
 
     )
   }
