@@ -16,6 +16,8 @@ import styles from './appStyles.module.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import LifecycleB from './components/LifecycleB';
+import FragementDemo from './components/FragementDemo';
+import Table from './components/Table';
 
 
 
@@ -44,7 +46,9 @@ function App() {
        {/* <NameList /> */}
        {/* <StyleSheet  primary = {false}/> */}
       {/* <Form /> */}
-       <LifecycleA />
+       {/* <LifecycleA /> */}
+       {/* <FragementDemo /> */}
+       <Table />
      
 
     </div>

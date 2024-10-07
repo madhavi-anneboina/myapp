@@ -19,13 +19,27 @@ class LifecycleA extends Component {
     componentDidMount(){
         console.log("LifecycleA componentdidmount")
     }
+    shouldComponentUpdate(){
+        console.log("LifecycleA should component update")
+        return true
+    }
+    getSnapshotBeforeUpdate(prevProps, prevState){
+        console.log("LifecycleA getSnapshotBeforeUpdate")
+    }
+    componentDidUpdate(){
+        console.log("LifecycleA componentDidUpdate")
+    }
+    chageState = () =>{
+        this.setState({name:'codevolution'})
+    }
   render() {
     console.log("LifecycleA render")
     return (
         <div>
            <div>
           LifecycleA
-         
+          {this.state.name}
+          <button onClick={this.chageState}>Change State</button>
         </div>
         <LifecycleB />
         </div>
