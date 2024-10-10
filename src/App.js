@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PureComponent } from 'react'
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
@@ -18,6 +18,11 @@ import LifecycleA from './components/LifecycleA';
 import LifecycleB from './components/LifecycleB';
 import FragementDemo from './components/FragementDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComp';
+
+
+
+
 
 
 
@@ -48,8 +53,8 @@ function App() {
       {/* <Form /> */}
        {/* <LifecycleA /> */}
        {/* <FragementDemo /> */}
-       <Table />
-     
+       {/* <Table /> */}
+       <PureComp/>
 
     </div>
   );
