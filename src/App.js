@@ -19,6 +19,7 @@ import LifecycleB from './components/LifecycleB';
 import FragementDemo from './components/FragementDemo';
 import Table from './components/Table';
 import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
 
 
 
@@ -54,7 +55,8 @@ function App() {
        {/* <LifecycleA /> */}
        {/* <FragementDemo /> */}
        {/* <Table /> */}
-       <PureComp/>
+       {/* <PureComp/> */}
+       <ParentComp />
 
     </div>
   );
