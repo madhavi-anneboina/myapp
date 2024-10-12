@@ -20,6 +20,7 @@ import FragementDemo from './components/FragementDemo';
 import Table from './components/Table';
 import PureComp from './components/PureComp';
 import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 
 
@@ -35,29 +36,7 @@ import ParentComp from './components/ParentComp';
 function App() {
   return (
     <div className="App">
-      {/* <h1 className='error'> Heloo Madhavi Error </h1>
-      <h1 className={styles.sucess}> Heloo Madhavi Success </h1> */}
-       {/* <Greet  name="laddu">
-        <p>Helloo how are you,what are you doing</p>
-       </Greet>
-
-       <Welcome  name= "biddu" heroName="latha"/>
-       <Hello />
-       <Message />
-       <Counter />
-       <FunctionClick /> */}
-       {/* <EventBind />
-       <ParentComponent /> */}
-       {/* <UserGreeting /> */}
-       {/* <NameList /> */}
-       {/* <StyleSheet  primary = {false}/> */}
-      {/* <Form /> */}
-       {/* <LifecycleA /> */}
-       {/* <FragementDemo /> */}
-       {/* <Table /> */}
-       {/* <PureComp/> */}
-       <ParentComp />
-
+      <RefsDemo />
     </div>
   );
 }
