@@ -25,11 +25,7 @@ import FocusInput from './components/FocusInput';
 import FRInput from './components/FRInput';
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
-
-
-
-
-
+import Hero from './components/Hero';
 
 
 
@@ -40,7 +36,9 @@ import PortalDemo from './components/PortalDemo';
 function App() {
   return (
     <div className="App">
-  <PortalDemo />
+  <Hero  heroname="ram"/>
+  <Hero  heroname="sam"/>
+  <Hero  heroname="joker"/>
     </div>
   );
 }
