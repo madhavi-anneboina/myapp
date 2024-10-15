@@ -26,6 +26,8 @@ import FRInput from './components/FRInput';
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+
 
 
 
@@ -36,9 +38,11 @@ import Hero from './components/Hero';
 function App() {
   return (
     <div className="App">
-  <Hero  heroname="ram"/>
-  <Hero  heroname="sam"/>
-  <Hero  heroname="joker"/>
+     
+      <ErrorBoundary> <Hero  heroname="ram"/>  </ErrorBoundary>
+      <ErrorBoundary> <Hero  heroname="sam"/>  </ErrorBoundary>
+      <ErrorBoundary> <Hero  heroname="joker"/>  </ErrorBoundary>
+
     </div>
   );
 }
