@@ -26,6 +26,10 @@ import FRInput from './components/FRInput';
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+
 
 
 
@@ -36,9 +40,9 @@ import Hero from './components/Hero';
 function App() {
   return (
     <div className="App">
-  <Hero  heroname="ram"/>
-  <Hero  heroname="sam"/>
-  <Hero  heroname="joker"/>
+     <ClickCounter />
+     <HoverCounter />
+
     </div>
   );
 }
