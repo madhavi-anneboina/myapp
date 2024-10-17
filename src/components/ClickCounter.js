@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import UpdatedComponent from "./WithCounter";
 
 class ClickCounter extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       count: 0,
     };
@@ -23,4 +23,4 @@ class ClickCounter extends Component {
   }
 }
 
-export default ClickCounter;
+export default UpdatedComponent(ClickCounter);
