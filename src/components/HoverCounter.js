@@ -17,7 +17,7 @@ import UpdatedComponent from './WithCounter';
   render() {
     return (
       <div>
-         <button onMouseOver={this.incrementCount}>Hover counter {this.state.count} times</button>
+         <button onMouseOver={this.incrementCount}> {this.props.name} Hover counter {this.state.count} times</button>
       </div>
     )
   }
